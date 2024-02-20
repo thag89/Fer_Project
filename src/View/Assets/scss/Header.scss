@@ -1,0 +1,16 @@
+.inner{
+    height: 100%;
+    width: var(--default-layout-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5rem;
+ }
+ .tab a{
+    padding: 10px;
+ }

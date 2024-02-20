@@ -1,0 +1,448 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "FsoftHoaLac",
+      "email": "FsoftHoaLac@gmail.com",
+      "password": "12345",
+      "Name": "Công ty TNHH Phần mềm Fpt Fsoft",
+      "address": "Thái Hoà, Thạch Thất, Hà Nội",
+      "phone": "0512989008",
+      "createat": "2023-10-17",
+      "role": 3,
+      "BanStatus": 1
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "email": "Fbinhsd@gmail.com",
+      "password": "12345",
+      "Name": "Kieu Thanh Binh",
+      "address": "Thái Hoà, Thạch Thất, Hà Nội",
+      "phone": "0987654321",
+      "createat": "2023-10-17",
+      "role": 1
+    },
+    {
+      "email": "anhnt@gmail.com",
+      "password": "12345",
+      "imgPath": "https://devo.vn/wp-content/uploads/2023/01/meo-cam-dao.jpg",
+      "phone": "0363938085",
+      "address": "Thạch Hòa, Thạch Thất, Hà Nội",
+      "Introduction": "Make sure you have followed the necessary steps to integrate the toast notification library properly into your application. Double-check the documentation of the specific toast library you are using for detailed instructions on how to set it up correctly.",
+      "fieldOfExpertise": 2,
+      "BanStatus": 0,
+      "Name": "Nguyễn Tiến Anh",
+      "OnlineCv": "http://sample.net/donkey#sea",
+      "Experience": "5",
+      "id": 3
+    },
+    {
+      "email": "FsoftHoaLac@gmail.com",
+      "password": "12345",
+      "imgPath": "https://inkythuatso.com/uploads/thumbnails/800/2021/11/logo-fpt-inkythuatso-1-01-01-14-33-35.jpg",
+      "phone": "0512989008",
+      "address": "Thái Hoà, Thạch Thất, Hà Nội",
+      "Introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat suscipit nisl id tincidunt. Aenean id pretium dolor. Suspendisse potenti. Etiam pretium massa at iaculis ornare. Duis rutrum eros vel massa condimentum imperdiet. In hac habitasse platea dictumst. Mauris eu risus quis ante rutrum dapibus sit amet non turpis. Integer in justo luctus, finibus arcu ut, tincidunt felis.",
+      "fieldOfExpertise": 1,
+      "role": 3,
+      "BanStatus": 0,
+      "Name": "Công ty TNHH Phần mềm Fpt Fsoft",
+      "OnlineCv": "http://sample.net/donkey#seaa",
+      "Experience": -1,
+      "id": 4
+    },
+    {
+      "email": "ViettelSoftwareService@gmail.com",
+      "password": "12345",
+      "imgPath": "https://s3.ap-southeast-1.amazonaws.com/images-storage.jobstack.vn/4bdf9b77-ce27-4aeb-9767-e6c2325ba098.jpg",
+      "phone": "0965651643",
+      "address": "80 Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+      "Introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat suscipit nisl id tincidunt. Aenean id pretium dolor. Suspendisse potenti. Etiam pretium massa at iaculis ornare. Duis rutrum eros vel massa condimentum imperdiet. In hac habitasse platea dictumst. Mauris eu risus quis ante rutrum dapibus sit amet non turpis. Integer in justo luctus, finibus arcu ut, tincidunt felis.",
+      "fieldOfExpertise": 1,
+      "role": 2,
+      "BanStatus": 1,
+      "Name": "Viettel Software Servicee",
+      "OnlineCv": "http://sample.net/donkey#sea",
+      "Experience": -1,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "email": "ChaiLease@gmail.com",
+      "password": "12345",
+      "imgPath": "https://ebill.chailease.com.vn/images/logo-sub.png",
+      "phone": "0512989008",
+      "address": "Phạm Hùng, Mễ Trì Hạ, Từ Liêm, Hà Nội",
+      "Introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat suscipit nisl id tincidunt. Aenean id pretium dolor. Suspendisse potenti. Etiam pretium massa at iaculis ornare. Duis rutrum eros vel massa condimentum imperdiet. In hac habitasse platea dictumst. Mauris eu risus quis ante rutrum dapibus sit amet non turpis. Integer in justo luctus, finibus arcu ut, tincidunt felis.",
+      "fieldOfExpertise": 1,
+      "role": 2,
+      "BanStatus": 1,
+      "Name": "Công Ty Cho Thuê Tài Chính Tnhh Mtv Quốc Tế Chailease",
+      "OnlineCv": "http://sample.net/donkey#sea",
+      "Experience": -1
+    },
+    {
+      "userName": "hucade",
+      "email": "quan25102001@gmail.com",
+      "password": "hucade2510",
+      "role": 3,
+      "id": 7,
+      "BanStatus": 1
+    },
+    {
+      "userName": "Quanhucade",
+      "email": "quanhucade@gmail.com",
+      "password": "hucade2510",
+      "role": 2,
+      "id": 8
+    }
+  ],
+  "role": [
+    {
+      "id": 1,
+      "name": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Applicant"
+    },
+    {
+      "id": 3,
+      "name": "Company"
+    }
+  ],
+  "applicant": [
+    {
+      "id": 1,
+      "userid": 1,
+      "image": "./image/app1",
+      "firstname": "Kieu Thanh",
+      "lastname": "Binh",
+      "dob": "2003-06-22",
+      "phonenumber": "0964000658",
+      "wishlist": [
+        {
+          "id": 1,
+          "job": 1
+        }
+      ]
+    }
+  ],
+  "company": [
+    {
+      "id": 1,
+      "userid": 1,
+      "name": "FPT University branch in Ho Chi Minh City",
+      "logo": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?w=740&t=st=1699243917~exp=1699244517~hmac=b634acaa49a669c56212ffebb5b772e0acc005b1b45bafdbdb28dfc739b4d0af",
+      "website": "https://fpt.edu.vn/",
+      "staffnumber": 500,
+      "introduction": "FPT ARENA MULTIMEDIA FPT Arena Multimedia Art Training System under FPT Education Organization was established in 2004 to meet the need for high-quality human resources majoring in Multimedia Design and graphic design.",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "map": "https://www.google.com/maps/search/9+%C4%90.+D1+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Ph%C3%BA+Qu%E1%BA%ADn+9+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.84921,106.801557,15z?hl=vi&entry=ttu"
+    },
+    {
+      "id": 2,
+      "userid": 2,
+      "name": "Viettel Software Service",
+      "logo": "https://s3.ap-southeast-1.amazonaws.com/images-storage.jobstack.vn/4bdf9b77-ce27-4aeb-9767-e6c2325ba098.jpg",
+      "website": "https://www.viettelsoftware.com/",
+      "staffnumber": 500,
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat suscipit nisl id tincidunt. Aenean id pretium dolor. Suspendisse potenti. Etiam pretium massa at iaculis ornare. Duis rutrum eros vel massa condimentum imperdiet. In hac habitasse platea dictumst. Mauris eu risus quis ante rutrum dapibus sit amet non turpis. Integer in justo luctus, finibus arcu ut, tincidunt felis.",
+      "location": "80 Dịch Vọng Hậu, Cầu Giấy, Hà Nội",
+      "map": "https://www.google.com/maps/search/9+%C4%90.+D1+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Ph%C3%BA+Qu%E1%BA%ADn+9+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.84921,106.801557,15z?hl=vi&entry=ttu"
+    },
+    {
+      "id": 3,
+      "userid": 3,
+      "name": "Công Ty Cho Thuê Tài Chính Tnhh Mtv Quốc Tế Chailease",
+      "logo": "https://ebill.chailease.com.vn/images/logo-sub.png",
+      "website": "https://www.chailease.com.vn/",
+      "staffnumber": 500,
+      "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat suscipit nisl id tincidunt. Aenean id pretium dolor. Suspendisse potenti. Etiam pretium massa at iaculis ornare. Duis rutrum eros vel massa condimentum imperdiet. In hac habitasse platea dictumst. Mauris eu risus quis ante rutrum dapibus sit amet non turpis. Integer in justo luctus, finibus arcu ut, tincidunt felis.",
+      "location": "Phạm Hùng, Mễ Trì Hạ, Từ Liêm, Hà Nội",
+      "map": "https://www.google.com/maps/search/9+%C4%90.+D1+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+Ph%C3%BA+Qu%E1%BA%ADn+9+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh/@10.84921,106.801557,15z?hl=vi&entry=ttu"
+    },
+    {
+      "userid": 1,
+      "name": "hucade",
+      "logo": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fvectors%2Fsilhouette-logo&psig=AOvVaw3-a0ey4-n3SoIcGhGtae39&ust=1699329630175000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiNnKm-roIDFQAAAAAdAAAAABAE",
+      "website": "hucade.com",
+      "staffnumber": 122,
+      "introduction": "Hucade và những người bạn",
+      "location": "Giữa trời ",
+      "id": 4
+    },
+    {
+      "userid": 7,
+      "name": "Hucade",
+      "logo": "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?w=740&t=st=1699243917~exp=1699244517~hmac=b634acaa49a669c56212ffebb5b772e0acc005b1b45bafdbdb28dfc739b4d0af",
+      "website": "hucade.com",
+      "staffnumber": 12,
+      "introduction": "Hucade và những người bạn",
+      "location": "ád",
+      "id": 5
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "userid": 2,
+      "firstname": "Kieu Thanh",
+      "lastname": "Binh",
+      "dob": "2003-06-22",
+      "phonenumber": "0000086658"
+    }
+  ],
+  "job": [
+    {
+      "id": 1,
+      "company": 1,
+      "title": "IT Instructor - Teaching Fullstack Programming",
+      "image": "images/job-list1.png",
+      "salary": "Deal",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "1 year",
+      "quantity": 10,
+      "workform": 1,
+      "recruitmentdescription": {
+        "jobdescription": "Teaching about: Web programming with HTML/CSS/Javascript, ReactJS. Database design and programming.Java, C, PHP programming.Web programming with Spring framework, ASP.Net, API,...Mobile Programming with Flutter/Dar",
+        "requirements": "University or higher. Have experience developing applications and websites through real projects. Have good knowledge of programming languages (Javascript, Java, C, NodeJS, Python, Database, Dart,...) Logical thinking, programming thinking and Good systems thinking.",
+        "benefits": "Dynamic working environment, professional Have an attractive income Have the opportunity to participate in training activities to improve qualifications",
+        "worklocation": "391A, Nam Ky Khoi Nghia, Ward 7, District 3, City. Ho Chi Minh, District 3"
+      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 1,
+      "createdate": "17-10-2023",
+      "expireday": "18-10-2023"
+    },
+    {
+      "id": 2,
+      "company": 1,
+      "title": "IT Instructor - Teaching Tester Programming",
+      "image": "images/job-list2.png",
+      "salary": "Deal",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "1 year",
+      "quantity": 10,
+      "workform": 1,
+      "recruitmentdescription": {
+        "jobdescription": "Teaching about: Web programming with HTML/CSS/Javascript, ReactJS. Database design and programming.Java, C, PHP programming.Web programming with Spring framework, ASP.Net, API,...Mobile Programming with Flutter/Dar",
+        "requirements": "University or higher. Have experience developing applications and websites through real projects. Have good knowledge of programming languages (Javascript, Java, C, NodeJS, Python, Database, Dart,...) Logical thinking, programming thinking and Good systems thinking.",
+        "benefits": "Dynamic working environment, professional Have an attractive income Have the opportunity to participate in training activities to improve qualifications",
+        "worklocation": "391A, Nam Ky Khoi Nghia, Ward 7, District 3, City. Ho Chi Minh, District 3"
+      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 3,
+      "createdate": "17-10-2023",
+      "expireday": "18-10-2023"
+    },
+    {
+      "id": 3,
+      "company": 1,
+      "title": "hello",
+      "salary": 5,
+      "location": "asdf",
+      "position": 3,
+      "workform": 1,
+      "industry": 2,
+      "experience": "",
+      "quantity": 6,
+      "worklocation": "",
+      "recruitmentdescription": {
+        "jobdescription": "fasd",
+        "requirements": "asdf",
+        "benefits": "asdf"
+      },
+      "contact": {
+        "name": "asdf",
+        "email": "asdf@fasd",
+        "phonenumber": "0964686658"
+      },
+      "status": 2,
+      "createdate": "4/11/2023",
+      "expireday": "2023-11-29"
+    },
+    {
+      "id": 4,
+      "company": 7,
+      "title": "asdf",
+      "salary": 4,
+      "location": "asdf",
+      "position": 4,
+      "workform": 1,
+      "industry": 1,
+      "experience": "",
+      "quantity": 4,
+      "worklocation": "",
+      "recruitmentdescription": {
+        "jobdescription": "asdf",
+        "requirements": "asdf",
+        "benefits": "asdf"
+      },
+      "contact": {
+        "name": "kminchelle",
+        "email": "asdf@asdf",
+        "phonenumber": "0986565566"
+      },
+      "status": 1,
+      "createdate": "6/11/2023",
+      "expireday": "2023-11-21"
+    },
+    {
+      "id": 5,
+      "company": 7,
+      "title": "asdf",
+      "salary": 5,
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "position": 4,
+      "workform": 3,
+      "industry": 4,
+      "experience": "",
+      "quantity": 5,
+      "worklocation": "",
+      "recruitmentdescription": {
+        "jobdescription": "asdf",
+        "requirements": "asdf",
+        "benefits": "asdf"
+      },
+      "contact": {
+        "name": "asdf",
+        "email": "asdf@3dfs",
+        "phonenumber": "0656565611"
+      },
+      "status": 1,
+      "createdate": "6/11/2023",
+      "expireday": "2023-11-08"
+    }
+  ],
+  "jobstatus": [
+    {
+      "id": 1,
+      "name": "Pending"
+    },
+    {
+      "id": 1,
+      "name": "Approved"
+    },
+    {
+      "id": 1,
+      "name": "Rejected"
+    }
+  ],
+  "jobposition": [
+    {
+      "id": 1,
+      "name": "Staff"
+    },
+    {
+      "id": 2,
+      "name": "Intern"
+    },
+    {
+      "id": 3,
+      "name": "Director"
+    },
+    {
+      "id": 4,
+      "name": "Manager"
+    }
+  ],
+  "industry": [
+    {
+      "id": 1,
+      "name": "IT Software Development"
+    },
+    {
+      "id": 2,
+      "name": "IT Hardware/Internet"
+    },
+    {
+      "id": 3,
+      "name": "Logistic"
+    },
+    {
+      "id": 4,
+      "name": "Marketing"
+    }
+  ],
+  "workform": [
+    {
+      "id": 1,
+      "name": "Part Time"
+    },
+    {
+      "id": 2,
+      "name": "Full Time"
+    },
+    {
+      "id": 3,
+      "name": "Internship"
+    }
+  ],
+  "application": [
+    {
+      "id": 1,
+      "userid": 1,
+      "job": 1,
+      "CV": "https://bestonlineresume.com/resume/67dce19a-5f39-4bfe-b100-66e96058a28c/preview",
+      "applydate": "2023-17-10",
+      "applicationstatus": 2
+    },
+    {
+      "userid": 8,
+      "job": 1,
+      "CV": "https://chat.openai.com/",
+      "applydate": "11/6/2023",
+      "applicationstatus": 1,
+      "id": 2
+    },
+    {
+      "userid": 8,
+      "job": 5,
+      "CV": "ádasd",
+      "applydate": "11/6/2023",
+      "applicationstatus": 1,
+      "id": 3
+    }
+  ],
+  "applicationstatus": [
+    {
+      "id": 1,
+      "name": "Pending"
+    },
+    {
+      "id": 2,
+      "name": "Approved"
+    },
+    {
+      "id": 3,
+      "name": "Rejected"
+    }
+  ],
+  "payment": [
+    {}
+  ],
+  "notification": [
+    {
+      "id": 1,
+      "sender": 1,
+      "receiver": 2,
+      "type": "",
+      "content": "",
+      "readstatus": 1
+    }
+  ]
+}
