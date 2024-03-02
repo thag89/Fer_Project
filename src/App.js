@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom'
 import { Col, Container, Row } from 'react-bootstrap'
-import { Header, JobDetail, JobListing, About, Contact, HomePage, PostJob, ApplyJobs, Footer, Login, Register } from "./View/Component/index"
+import { Header, JobDetail, JobListing, About, Contact, HomePage, PostJob, ApplyJobs, Footer, Login, Register, Profile } from "./View/Component/index"
 
 import Index from "./View/Component/Company/Index";
 import Application from './View/Component/Company/ApplicantManagement';
@@ -29,6 +29,7 @@ function App() {
             <Route path="/applyjob/:id" element={<ApplyJobs />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/profile" element={<Profile />} />
             <Route path="/company" element={<Index />}>
               <Route path="applicant-management" element={<Application />} />
               <Route path='jobs' element={<Jobs />} />
