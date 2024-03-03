@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import Login from "./Login";
 import Register from "./Register";
 import ForgotPassword from "./fgp";
+import Profile from './Profile';
 export {
-    Header, JobDetail, JobListing, About, Contact, HomePage, PostJob, ApplyJobs, Footer, Login, Register, ForgotPassword
+    Header, JobDetail, JobListing, About, Contact, HomePage, PostJob, ApplyJobs, Footer, Login, Register, ForgotPassword, Profile
 }
