@@ -225,18 +225,18 @@
     {
       "id": 2,
       "company": 1,
-      "title": "IT Instructor - Teaching Tester Programming",
-      "image": "images/job-list2.png",
-      "salary": "Deal",
+      "title": "Senior Software Developer",
+      "image": "",
+      "salary": "Negotiable",
       "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
-      "experience": "1 year",
-      "quantity": 10,
-      "workform": 1,
+      "experience": "5 years",
+      "quantity": 3,
+      "workform": 2,
+      "industry": 1,
       "recruitmentdescription": {
-        "jobdescription": "Teaching about: Web programming with HTML/CSS/Javascript, ReactJS. Database design and programming.Java, C, PHP programming.Web programming with Spring framework, ASP.Net, API,...Mobile Programming with Flutter/Dar",
-        "requirements": "University or higher. Have experience developing applications and websites through real projects. Have good knowledge of programming languages (Javascript, Java, C, NodeJS, Python, Database, Dart,...) Logical thinking, programming thinking and Good systems thinking.",
-        "benefits": "Dynamic working environment, professional Have an attractive income Have the opportunity to participate in training activities to improve qualifications",
-        "worklocation": "391A, Nam Ky Khoi Nghia, Ward 7, District 3, City. Ho Chi Minh, District 3"
+        "jobdescription": "Develop and maintain high-quality software design and architecture. Collaborate with other team members to define and implement innovative solutions for the product direction.",
+        "requirements": "Bachelor's degree in Computer Science or related field. Proven experience as a Senior Software Developer. Strong problem-solving skills and ability to think algorithmically.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
       },
       "contact": [
         {
@@ -245,87 +245,198 @@
           "phonenumber": "0964000008"
         }
       ],
-      "status": 3,
-      "createdate": "17-10-2023",
-      "expireday": "18-10-2023"
+      "status": 1,
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
     },
     {
       "id": 3,
       "company": 1,
-      "title": "hello",
-      "salary": 5,
-      "location": "asdf",
-      "position": 3,
-      "workform": 1,
+      "title": "Hardware Engineer",
+      "image": "",
+      "salary": "Negotiable",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "3 years",
+      "quantity": 2,
+      "workform": 2,
       "industry": 2,
-      "experience": "",
-      "quantity": 6,
-      "worklocation": "",
       "recruitmentdescription": {
-        "jobdescription": "fasd",
-        "requirements": "asdf",
-        "benefits": "asdf"
+        "jobdescription": "Design, develop, and test computer hardware components. Collaborate with software engineers to integrate hardware and software systems.",
+        "requirements": "Bachelor's degree in Electrical Engineering, Computer Engineering, or related field. Proven experience as a Hardware Engineer. Familiarity with hardware design tools and software.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
       },
-      "contact": {
-        "name": "asdf",
-        "email": "asdf@fasd",
-        "phonenumber": "0964686658"
-      },
-      "status": 2,
-      "createdate": "4/11/2023",
-      "expireday": "2023-11-29"
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 1,
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
     },
     {
       "id": 4,
-      "company": 7,
-      "title": "asdf",
-      "salary": 4,
-      "location": "asdf",
-      "position": 4,
-      "workform": 1,
-      "industry": 1,
-      "experience": "",
+      "company": 1,
+      "title": "Logistics Coordinator",
+      "image": "",
+      "salary": "Negotiable",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "2 years",
       "quantity": 4,
-      "worklocation": "",
+      "workform": 2,
+      "industry": 3,
       "recruitmentdescription": {
-        "jobdescription": "asdf",
-        "requirements": "asdf",
-        "benefits": "asdf"
+        "jobdescription": "Coordinate and monitor supply chain operations. Ensure all shipments are handled and delivered on time. Resolve any arising problems or complaints.",
+        "requirements": "Bachelor's degree in Logistics, Business Administration, or related field. Proven experience as a Logistics Coordinator. Knowledge of laws, regulations, and ISO requirements.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
       },
-      "contact": {
-        "name": "kminchelle",
-        "email": "asdf@asdf",
-        "phonenumber": "0986565566"
-      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
       "status": 1,
-      "createdate": "6/11/2023",
-      "expireday": "2023-11-21"
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
     },
     {
       "id": 5,
-      "company": 7,
-      "title": "asdf",
-      "salary": 5,
+      "company": 1,
+      "title": "Sales and Marketing Manager",
+      "image": "images/job-list1.png",
+      "salary": "Negotiable",
       "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
-      "position": 4,
-      "workform": 3,
+      "experience": "5 years",
+      "quantity": 2,
+      "workform": 2,
       "industry": 4,
-      "experience": "",
-      "quantity": 5,
-      "worklocation": "",
       "recruitmentdescription": {
-        "jobdescription": "asdf",
-        "requirements": "asdf",
-        "benefits": "asdf"
+        "jobdescription": "Develop and implement strategic sales and marketing plans. Identify new business opportunities and partnerships. Lead and motivate the sales and marketing team to achieve targets.",
+        "requirements": "Bachelor's degree in Marketing, Business Administration, or related field. Proven experience as a Sales and Marketing Manager. Strong leadership and communication skills.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
       },
-      "contact": {
-        "name": "asdf",
-        "email": "asdf@3dfs",
-        "phonenumber": "0656565611"
-      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
       "status": 1,
-      "createdate": "6/11/2023",
-      "expireday": "2023-11-08"
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
+    },
+    {
+      "id": 6,
+      "company": 1,
+      "title": "Construction Project Manager",
+      "image": "images/job-list1.png",
+      "salary": "Negotiable",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "5 years",
+      "quantity": 3,
+      "workform": 2,
+      "industry": 5,
+      "recruitmentdescription": {
+        "jobdescription": "Plan and supervise construction projects from start to finish. Coordinate and direct construction workers and subcontractors. Ensure compliance with safety regulations and building codes.",
+        "requirements": "Bachelor's degree in Civil Engineering, Construction Management, or related field. Proven experience as a Construction Project Manager. Knowledge of construction management processes.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
+      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 1,
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
+    },
+    {
+      "id": 7,
+      "company": 1,
+      "title": "Real Estate Agent",
+      "image": "images/job-list1.png",
+      "salary": "Negotiable",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "2 years",
+      "quantity": 5,
+      "workform": 2,
+      "industry": 6,
+      "recruitmentdescription": {
+        "jobdescription": "Assist clients in buying, selling, and renting properties. Provide guidance and assistance throughout the real estate transaction process. Market properties and attract potential clients.",
+        "requirements": "Bachelor's degree in Real Estate, Business Administration, or related field. Proven experience as a Real Estate Agent. Excellent communication and negotiation skills.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
+      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 1,
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
+    },
+    {
+      "id": 8,
+      "company": 1,
+      "title": "Graphic Designer",
+      "image": "images/job-list1.png",
+      "salary": "Negotiable",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "3 years",
+      "quantity": 4,
+      "workform": 2,
+      "industry": 7,
+      "recruitmentdescription": {
+        "jobdescription": "Create visual concepts, graphics, and layouts for various projects. Collaborate with clients or creative directors to understand their needs and vision. Use graphic design software and techniques to produce high-quality designs.",
+        "requirements": "Bachelor's degree in Graphic Design, Fine Arts, or related field. Proven experience as a Graphic Designer. Proficiency in graphic design software such as Adobe Creative Suite.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
+      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 1,
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
+    },
+    {
+      "id": 9,
+      "company": 1,
+      "title": "Content Writer",
+      "image": "images/job-list1.png",
+      "salary": "Negotiable",
+      "location": "Hoa Lac High Tech Park, Hanoi, Vietnam",
+      "experience": "2 years",
+      "quantity": 3,
+      "workform": 2,
+      "industry": 8,
+      "recruitmentdescription": {
+        "jobdescription": "Produce well-researched content for various platforms including websites, blogs, social media, and marketing materials. Collaborate with the marketing team to develop content strategies and campaigns. Edit and proofread content to ensure quality and consistency.",
+        "requirements": "Bachelor's degree in English, Journalism, Communications, or related field. Proven experience as a Content Writer or similar role. Excellent writing and editing skills, with attention to detail.",
+        "benefits": "Competitive salary, opportunities for career growth, and a dynamic working environment."
+      },
+      "contact": [
+        {
+          "name": "Kieu Thanh Binh",
+          "email": "ktb@gmail.com",
+          "phonenumber": "0964000008"
+        }
+      ],
+      "status": 1,
+      "createdate": "2024-03-08",
+      "expireday": "2024-04-08"
     }
   ],
   "jobstatus": [
@@ -375,7 +486,23 @@
     },
     {
       "id": 4,
-      "name": "Marketing"
+      "name": "Sales & Marketing"
+    },
+    {
+      "id": 5,
+      "name": "Construction"
+    },
+    {
+      "id": 6,
+      "name": "Real Estate"
+    },
+    {
+      "id": 7,
+      "name": "Design & Creative"
+    },
+    {
+      "id": 8,
+      "name": "Content Writer"
     }
   ],
   "workform": [

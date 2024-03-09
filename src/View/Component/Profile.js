@@ -212,13 +212,16 @@ export default function Profile() {
 
                             <div className="InputField">
                                 <h3>Experience: </h3>
-                                <input className="UserInfoInput"
+                                <input
+                                    className="UserInfoInput"
                                     type="number"
                                     value={Experience}
                                     min={0}
+                                    onChange={(e) => setExperience(e.target.value)}
                                     style={{ marginLeft: "80px" }}
                                     readOnly={!isEditing}
                                 />
+
                             </div>
                             <div className="EditProfileButton">
                                 {isEditing && (
