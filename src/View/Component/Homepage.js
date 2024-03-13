@@ -6,6 +6,7 @@ import "../Assets/scss/stylingSon.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import backgroundImage from "../Assets/cv_bg.jpg"
 import Header from './Header';
+import { useNavigate } from 'react-router-dom';
 export default function HomePage() {
 
     const containerStyle = {
@@ -16,6 +17,10 @@ export default function HomePage() {
         paddingTop: '90px',
         paddingBottom: '120px',
     };
+    const navigate = useNavigate();
+    const handleJobClick = (categoryId) => {
+        navigate(`/JobListing?category=${categoryId}`);
+      };
     return (<>
         <Header></Header>
         <Container>
@@ -48,7 +53,7 @@ export default function HomePage() {
                                         <span><FaPenAlt size='5rem' /></span>
                                     </div>
                                     <div className="services-cap" >
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Design & Creative</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("7")} style={{ textDecoration: 'none', color: '#550055' }}>Design & Creative</a></h5>
                                         <span>(653)</span>
                                     </div>
                                 </div>
@@ -59,7 +64,7 @@ export default function HomePage() {
                                         <span><FaDesktop size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Design & Development</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("1")} style={{ textDecoration: 'none', color: '#550055' }}>IT Software Development</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>
@@ -70,7 +75,7 @@ export default function HomePage() {
                                         <span><FaNewspaper size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Sales & Marketing</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("4")} style={{ textDecoration: 'none', color: '#550055' }}>Sales & Marketing</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>
@@ -81,7 +86,7 @@ export default function HomePage() {
                                         <span><FaMobileAlt size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Mobile Application</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("3")} style={{ textDecoration: 'none', color: '#550055' }}>Logistic</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>
@@ -92,7 +97,7 @@ export default function HomePage() {
                                         <span><FaHouzz size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Construction</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("5")} style={{ textDecoration: 'none', color: '#550055' }}>Construction</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>
@@ -103,7 +108,7 @@ export default function HomePage() {
                                         <span><FaMicrochip size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Information Technology</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("2")} style={{ textDecoration: 'none', color: '#550055' }}>IT Hardware/Internet</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>
@@ -114,7 +119,7 @@ export default function HomePage() {
                                         <span><FaLaptopHouse size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Real Estate</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("6")} style={{ textDecoration: 'none', color: '#550055' }}>Real Estate</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>
@@ -125,7 +130,7 @@ export default function HomePage() {
                                         <span><FaRegHandPaper size='5rem' /></span>
                                     </div>
                                     <div className="services-cap">
-                                        <h5><a href="./JobListing" style={{ textDecoration: 'none', color: '#550055' }}>Content Writer</a></h5>
+                                        <h5><a href="#" onClick={() => handleJobClick("8")} style={{ textDecoration: 'none', color: '#550055' }}>Content Writer</a></h5>
                                         <span>(658)</span>
                                     </div>
                                 </div>

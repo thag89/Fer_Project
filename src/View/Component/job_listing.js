@@ -6,7 +6,10 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import Banner from "../Assets/banner2.jpg";
 import Header from "./Header";
+import { useLocation } from "react-router-dom";
 export default function JobListing() {
+
+  const location = useLocation();
   const [jobs, setJobs] = useState([]);
   const [Category, setCategory] = useState([]);
   const [Workforms, setWorkforms] = useState([]);
@@ -14,6 +17,7 @@ export default function JobListing() {
   const [selectedCategory, setSelectedCategory] = useState("0");
   const [selectedWorkform, setSelectedWorkform] = useState([]);
   const [selectedExperience, setSelectedExperience] = useState([]);
+  const [queryCategory, setQueryCategory] = useState("0");
 
   const [companyData, setCompanyData] = useState([]);
   useEffect(() => {
@@ -39,20 +43,39 @@ export default function JobListing() {
       });
   }, []);
 
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const categoryParam = searchParams.get("category");
+    setSelectedCategory(categoryParam || "0");
+  }, [location.search]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const categoryParam = params.get('category');
+    if (categoryParam !== null) {
+      setQueryCategory(categoryParam);
+    }
+  }, []);
+
   const filterJobs = () => {
-    const filteredJobs = jobs.filter((job) => {
-      const categoryMatch =
-        selectedCategory === "0" || job.industry == selectedCategory;
-
-      const workformMatch =
-        selectedWorkform.length === 0 ||
-        selectedWorkform.includes(job.workform);
-
-      return categoryMatch && workformMatch;
-    });
-
-    return filteredJobs;
+    if (selectedCategory !== "0") {
+      return jobs.filter((job) => {
+        const categoryMatch = job.industry == selectedCategory;
+        const workformMatch =
+          selectedWorkform.length === 0 ||
+          selectedWorkform.includes(job.workform);
+        return categoryMatch && workformMatch;
+      });
+    } else {
+      return jobs.filter((job) => {
+        const workformMatch =
+          selectedWorkform.length === 0 ||
+          selectedWorkform.includes(job.workform);
+        return workformMatch;
+      });
+    }
   };
+
   const handleWorkformChange = (e) => {
     const itemId = parseInt(e.target.value);
     const isChecked = e.target.checked;
@@ -127,6 +150,7 @@ export default function JobListing() {
                   <div class="select-job-items2">
                     <select
                       name="select"
+                      value={queryCategory}
                       onChange={(e) => setSelectedCategory(e.target.value)}
                     >
                       <option value="0">All Category</option>
@@ -136,6 +160,7 @@ export default function JobListing() {
                         </option>
                       ))}
                     </select>
+
                   </div>
                   <div
                     class="select-Categories pt-80 pb-50"
@@ -186,7 +211,7 @@ export default function JobListing() {
                   >
                     <Card.Img
                       variant="top"
-                      src= {getCompanyInfo(item.company)?.logo}
+                      src={getCompanyInfo(item.company)?.logo}
                       alt="Description of the image"
                       style={{ width: "60px", height: "60px" }}
                     />
